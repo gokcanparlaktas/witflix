@@ -2,9 +2,132 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  font-size: 16px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Signika";
+
+  --primary-red: #e50914;
+  --bg-primary: #000000;
+  --bg-secondary: #222222;
+  --typo1: #ffffff;
+  --typo2: #8c8c8c;
+  --typo3: #757575;
+  --typo4: #999999;
+  --acc1: #0071eb;
+  --acc2: #ffa00a;
+  --acc3: #5fa53f;
+
+  width: 1440px;
+  height: 1547px;
+  margin: 0;
+  padding: 0;
+}
+.color-system {
+  background-color: var(--primary-red);
+  height: 1440px;
+}
+.container {
+  background-color: var(--bg-primary);
+  margin: 0 15px 15px 15px;
+  height: 1301px;
+}
+.header {
+  width: 100%;
+  height: 124px;
+  color: var(--typo1);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -0.5%;
+  line-height: 1.1;
+  padding-left: 79px;
+  padding-top: 35px;
+}
+
+h2 {
+  color: var(--typo1);
+  font-size: 32px;
+  line-height: -1.1;
+  letter-spacing: -1%;
+  padding-bottom: 34px;
+  font-weight: 500;
+}
+
+h3 {
+  color: var(--typo1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: auto;
+  letter-spacing: -0.5%;
+}
+.primary-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 38px;
+}
+
+.primary-card {
+  margin-left: 81px;
+  margin-top: 64px;
+  width: 520px;
+  height: 395px;
+  background-color: var(--bg-primary);
+}
+.primary-card-color {
+  height: 312px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 39px;
+}
+.typo-box {
+  width: 600px;
+  height: 288px;
+  margin-left: 81px;
+  margin-top: 0;
+  color: var(--typo1);
+}
+.typo-box h2 {
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+.typo-colorbox {
+  display: flex;
+}
+.colorbox-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 150px;
+  height: 150px;
+  color: var(--bg-primary);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 14px;
+}
+.colorbox-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 150px;
+  height: 150px;
+  color: var(--bg-primary);
+  padding-left: 14px;
+}
+.colorbox-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 150px;
+  height: 150px;
+  color: var(--bg-primary);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 14px;
 }
