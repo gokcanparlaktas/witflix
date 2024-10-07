@@ -116,6 +116,20 @@ h4 {
   padding-left: 14px;
   padding-bottom: 14px;
 }
+.main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-red);
+  color: var(--typo1);
+  width: 70px;
+  height: 33px;
+  margin-bottom: 40px;
+}
+.main-1 p {
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
 .colorbox-2 {
   display: flex;
   justify-content: flex-start;
@@ -162,6 +176,19 @@ h4 {
   height: 150px;
   padding-left: 14px;
   padding-bottom: 14px;
+}
+.main-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--typo1);
+  width: 70px;
+  height: 33px;
+  margin-bottom: 40px;
+}
+.main-2 p {
+  text-align: center;
+  letter-spacing: 0.1rem;
 }
 
 .back-box {
