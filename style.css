@@ -232,6 +232,7 @@ button {
 }
 .profile-box img {
   width: 200px;
+  border-radius: 5px;
 }
 .users-container {
   display: flex;
@@ -249,4 +250,5 @@ button {
   background-color: var(--bg-secondary);
   color: var(--typo1);
   transition: all 0.3s ease-in-out;
+  border-radius: 5px;
 }
