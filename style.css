@@ -143,7 +143,7 @@ button {
   font-size: 1rem;
   background-color: transparent;
   color: var(--text-dark);
-  border: 1px solid-text-normal(--text-dark);
+  border: 1px solid var(--text-dark);
   border-text-normal: 0;
 }
 .outline-button:hover {
@@ -171,7 +171,8 @@ button {
 .profile-box {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
+  align-content: center;
   gap: 1rem;
 }
 .profile-box img {
@@ -182,14 +183,18 @@ button {
   display: flex;
   gap: 2rem;
   text-align: center;
-  color: var(--text-text-normal);
+  color: var(--text-normal);
 }
+
 .add-profile {
-  margin: auto;
   background: none;
-}
-.add-profile:hover {
-  background: rgb(0, 0, 0, 0.1);
+  padding: 0.3rem;
+  img {
+    width: 190px;
+  }
+  hover {
+    background: rgb(0, 0, 0, 0.1);
+  }
 }
 .profile-box:hover {
   background-color: var(--bg-secondary);
