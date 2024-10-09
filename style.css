@@ -199,6 +199,11 @@ button {
 .secondary-button:hover {
   opacity: 0.8;
 }
+.out-button {
+  display: flex;
+  justify-content: center;
+}
+
 .outline-button {
   font-size: 1rem;
   background-color: transparent;
@@ -211,17 +216,19 @@ button {
   border: 1px solid var(--typo1);
 }
 .profiles {
-  margin-top: 10rem; /*BURAYI SOR*/
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 2rem;
+  justify-content: center;
 }
 .profiles-container {
   display: flex;
   flex-direction: column;
   text-align: center;
   row-gap: 2rem;
+  height: 100vh;
+  justify-content: center;
 }
 
 .profile-box {
@@ -241,7 +248,8 @@ button {
   color: var(--typo3);
 }
 .add-profile {
-  background: rgba(0, 0, 0, 0);
+  margin: auto;
+  background: none;
 }
 .add-profile:hover {
   background: rgb(0, 0, 0, 0.1);
@@ -251,4 +259,41 @@ button {
   color: var(--typo1);
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
+}
+.card {
+  margin-left: 1rem;
+  background-color: var(--bg-secondary);
+  min-width: 20rem;
+  aspect-ratio: 16/9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  height: 2.5rem;
+}
+
+.card img:first-of-type {
+  padding: 0.2rem;
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > span {
+  background-color: var(--primary-red);
+  color: var(--typo1);
+  align-self: center;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 0.25rem 0.5rem;
+}
+.ds-element-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 0;
 }
