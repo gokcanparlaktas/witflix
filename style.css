@@ -347,6 +347,9 @@ nav a {
 .mt-m {
   margin-top: 2rem;
 }
+.mt-l {
+  margin-top: 3rem;
+}
 .of-x {
   overflow-x: hidden;
 }
@@ -383,4 +386,15 @@ nav a {
   background-image: url(https://preview.redd.it/deadpool-and-wolverine-textless-banner-wallpaper-v0-vs0sop0uel1d1.png?width=1080&crop=smart&auto=webp&s=4a91a3c67ea7fd049df61eb525ae81a60c14aec2);
   background-size: cover;
   background-position: center;
+}
+.text-decoration {
+  text-decoration: none;
+}
+.margin-left {
+  margin-left: 5rem;
+}
+.margin-m {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
 }
