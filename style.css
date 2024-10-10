@@ -259,6 +259,12 @@ button {
   max-width: 500px;
   margin: 5rem 0;
 }
+a strong {
+  &:hover {
+    color: var(--primary-red);
+    transition: all 0.3s ease-in-out;
+  }
+}
 /* CSS NESTING */
 
 nav a {
