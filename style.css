@@ -24,6 +24,8 @@
   padding: 0;
 }
 /*-------- FONTS START -------*/
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -144,7 +146,6 @@ button {
   background-color: transparent;
   color: var(--text-dark);
   border: 1px solid var(--text-dark);
-  border-text-normal: 0;
 }
 .outline-button:hover {
   color: var(--text-white);
@@ -203,7 +204,6 @@ button {
   border-radius: 5px;
 }
 .card {
-  margin-left: 1rem;
   background-color: var(--bg-secondary);
   min-width: 20rem;
   aspect-ratio: 16/9;
@@ -239,8 +239,39 @@ button {
   gap: 2rem;
   padding: 1rem 0;
 }
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
 
-/* Utility Styles */
+  gap: var(--gap-m);
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-m);
+}
+.hero-box {
+  max-width: 500px;
+  margin: 5rem 0;
+}
+/* CSS NESTING */
+
+nav a {
+  text-decoration: none;
+  color: var(--text-white);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--primary-red);
+  }
+}
+
+/* Utility Classes */
 .white {
   color: var(--text-white);
 }
@@ -318,4 +349,38 @@ button {
 }
 .of-x {
   overflow-x: hidden;
+}
+.of-scroll {
+  overflow-x: scroll;
+}
+.cards::-webkit-scrollbar {
+  display: none;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.between {
+  justify-content: space-between;
+}
+.body-padding-left {
+  padding-left: 3rem;
+}
+.bg-image {
+  background-image: url(https://preview.redd.it/deadpool-and-wolverine-textless-banner-wallpaper-v0-vs0sop0uel1d1.png?width=1080&crop=smart&auto=webp&s=4a91a3c67ea7fd049df61eb525ae81a60c14aec2);
+  background-size: cover;
+  background-position: center;
 }
